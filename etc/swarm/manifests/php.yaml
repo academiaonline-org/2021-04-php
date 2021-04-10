@@ -1,0 +1,8 @@
+services:
+  php:
+    deploy:
+      replicas: 5
+    image: academiaonline/2021-04-php:latest
+    ports:
+    - 30000:8080
+version: "3.8"
